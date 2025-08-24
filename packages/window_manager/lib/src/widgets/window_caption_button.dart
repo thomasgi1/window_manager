@@ -352,8 +352,8 @@ class WindowCaptionButton extends StatefulWidget {
   );
   _ButtonBgColorScheme _darkButtonBgColorScheme = _ButtonBgColorScheme(
     normal: Colors.transparent,
-    hovered: Colors.white.withValues(alpha: 0.0605),
-    pressed: Colors.white.withValues(alpha: 0.0419),
+    hovered: Colors.white.withValues(alpha: 0.20),
+    pressed: Colors.white.withValues(alpha: 0.15),
   );
   _ButtonIconColorScheme _darkButtonIconColorScheme = _ButtonIconColorScheme(
     normal: Colors.white,
